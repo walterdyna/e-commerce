@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio Online</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cardápio Online</h1>
+    </header>
+    <main>
+      <section id="produtos">
+        <div class="linha">
+          <!-- Produto 1 -->
+          <div class="produto">
+            <img
+              src="./img/Screenshot_2.jpg"
+              alt="Produto 1"
+              onclick="showDetails(1)"
+            />
+            <h3>Caranguejo no soverte</h3>
+            <p class="valor">R$ 10,00</p>
+            <div class="detalhes" id="detalhes-1">
+              <p>
+                Este item é composto por chantilly, morangos frescos, sorvete
+                cremoso e uma irresistível calda de maracujá, tudo
+                harmoniosamente misturado e complementado por uma deliciosa
+                calda de morango.
+              </p>
+              <button onclick="hideDetails(1)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 2 -->
+          <div class="produto">
+            <img src="produto2.jpg" alt="Produto 2" onclick="showDetails(2)" />
+            <h3>Produto 2</h3>
+            <p class="valor">R$ 15,00</p>
+            <div class="detalhes" id="detalhes-2">
+              <p>Descrição do Produto 2</p>
+              <button onclick="hideDetails(2)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 3 -->
+          <div class="produto">
+            <img src="produto3.jpg" alt="Produto 3" onclick="showDetails(3)" />
+            <h3>Produto 3</h3>
+            <p class="valor">R$ 20,00</p>
+            <div class="detalhes" id="detalhes-3">
+              <p>Descrição do Produto 3</p>
+              <button onclick="hideDetails(3)">Fechar</button>
+            </div>
+          </div>
+        </div>
+        <div class="linha">
+          <!-- Produto 4 -->
+          <div class="produto">
+            <img
+              src="./img/prato.jpg"
+              alt="Produto 4"
+              onclick="showDetails(4)"
+            />
+            <h3>Prato Kids</h3>
+            <p class="valor">R$ 45,00</p>
+            <div class="detalhes" id="detalhes-4">
+              <p>
+                Escondidinho de carne ou frango, acompanhado de arroz, feijão,
+                salada fresca e farofa
+              </p>
+              <button onclick="hideDetails(4)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 5 -->
+          <div class="produto">
+            <img src="produto5.jpg" alt="Produto 5" onclick="showDetails(5)" />
+            <h3>Produto 5</h3>
+            <p class="valor">R$ 30,00</p>
+            <div class="detalhes" id="detalhes-5">
+              <p>Descrição do Produto 5</p>
+              <button onclick="hideDetails(5)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 6 -->
+          <div class="produto">
+            <img src="produto6.jpg" alt="Produto 6" onclick="showDetails(6)" />
+            <h3>Produto 6</h3>
+            <p class="valor">R$ 35,00</p>
+            <div class="detalhes" id="detalhes-6">
+              <p>Descrição do Produto 6</p>
+              <button onclick="hideDetails(6)">Fechar</button>
+            </div>
+          </div>
+        </div>
+        <div class="linha">
+          <!-- Produto 7 -->
+          <div class="produto">
+            <img
+              src="./img/caranguejo.jpg"
+              alt="Produto 7"
+              onclick="showDetails(7)"
+            />
+            <h3>KIT Caranguejo</h3>
+            <p class="valor">R$ 40,00</p>
+            <div class="detalhes" id="detalhes-7">
+              <p>
+                O Kit Caranguejo é composto por três caranguejos cuidadosamente
+                selecionados, frescos e belamente apresentados, prontos para
+                você saborear e se deliciar.
+              </p>
+              <button onclick="hideDetails(7)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 8 -->
+          <div class="produto">
+            <img src="produto8.jpg" alt="Produto 8" onclick="showDetails(8)" />
+            <h3>Produto 8</h3>
+            <p class="valor">R$ 45,00</p>
+            <div class="detalhes" id="detalhes-8">
+              <p>Descrição do Produto 8</p>
+              <button onclick="hideDetails(8)">Fechar</button>
+            </div>
+          </div>
+          <!-- Produto 9 -->
+          <div class="produto">
+            <img src="produto9.jpg" alt="Produto 9" onclick="showDetails(9)" />
+            <h3>Produto 9</h3>
+            <p class="valor">R$ 50,00</p>
+            <div class="detalhes" id="detalhes-9">
+              <p>Descrição do Produto 9</p>
+              <button onclick="hideDetails(9)">Fechar</button>
+            </div>
+          </div>
+        </div>
+        <!-- Adicione mais linhas conforme necessário -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Cardápio Online</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
